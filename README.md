@@ -16,7 +16,10 @@ How to build the launcher:
 
 The token is stored in the user home directory file `.npmrc` and looks something like this:
 
-`00000000-0000-0000-0000-000000000000`
+```
+registry=https://npm.tabrisjs.com/
+//npm.tabrisjs.com/:_authToken="<token>"
+```
 
 5. On tabrisjs.com go the the settings of the app and add an environment Variable `NPM_TOKEN` with the token as the value.
 6. Still in the settings, select the correct Tabris.js Version that fits the `tabris-js-remote` dependency specified in the `package.json` of this repository:
