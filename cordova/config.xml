@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.eclipsesource.tabris.app" version="0.1.0">
+<widget id="com.eclipsesource.tabris-remote-launcher" version="0.1.0">
 
-  <name>Tabris Remote App</name>
+  <name>Tabris for RAP Launcher</name>
   <description>
-    Example Tabris.js App
+    Tabris for RAP Developer App
   </description>
   <author email="info@tabris.com">
     EclipseSource Inc.

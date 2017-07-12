@@ -20,7 +20,7 @@ restoreState();
 
 function createUI() {
   new NavigationView({left: 0, top: 0, right: 0, bottom: 0}).append(
-    new Page({title: 'Tabris.js REMOTE'}).append(
+    new Page({title: 'Tabris for RAP Launcher'}).append(
       urlInput = new TextInput({
         message: 'Server URL',
         top: 32, left: 32, right: 32,
