@@ -12,7 +12,8 @@
     "serve": "tabris serve"
   },
   "dependencies": {
-    "tabris-js-remote": "3.2.0-beta1"
+    "tabris-js-remote": ">=3.2.0-beta1-nightly.0",
+    "tabris": "^2.0.0-dev.20170719"
   },
   "devDependencies": {
     "npm-run-all": "^4.0.2",
