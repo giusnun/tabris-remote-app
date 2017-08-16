@@ -24,11 +24,13 @@ registry=https://npm.tabrisjs.com/
 5. On tabrisjs.com go the the settings of the app and add an environment Variable `NPM_TOKEN` with the token as the value.
 6. Still in the settings, select the correct Tabris.js Version that fits the `tabris-js-remote` dependency specified in the `package.json` of this repository:
 
-| tabris-js-remote        | Tabris/RAP    | RAP     | Tabris.js   |
-|-------------------------|---------------|---------|-------------|
-| 3.2.0-beta1             | 3.2.0 nightly | 3.2.0   | 2.0-RC2     |
-| >=3.2.0-beta1-nightly.0 | 3.2.0 nightly | 3.2.0   | 2.x-nightly |
-| 3.2.0-beta2             | 3.2.0 nightly | 3.2.0   | 2.0.0       |
+| tabris-js-remote        | Tabris/RAP    | RAP     | Tabris.js              |
+|-------------------------|---------------|---------|------------------------|
+| 3.2.0-beta1             | 3.2.0 nightly | 3.2.0   | 2.0-RC2                |
+| >=3.2.0-beta1-nightly.0 | 3.2.0 nightly | 3.2.0   | 2.x-nightly            |
+| 3.2.0-beta2             | 3.2.0 nightly | 3.2.0   | 2.0.0                  |
+| 3.2.0-beta3             | 3.2.0 nightly | 3.2.0   | 2.0.0 or 2.1.0-nightly |
+| 3.2.0-beta4             | 3.2.0 nightly | 3.2.0   | 2.1.0 or 2.1.0-nightly |
 
 7. Build the app for the platform of your choice.
 8. Download and install the app and connect to your Tabris/RAP server.
