@@ -11,8 +11,9 @@
 
   <preference name="EnableDeveloperConsole" value="true"/>
 
-  <plugin name="cordova-plugin-network-information" spec="~1.3.0" />
-  <plugin name="cordova-plugin-camera" spec="~2.3.0" />
-  <plugin name="cordova-plugin-geolocation" spec="~2.4.3" />
+  <plugin name="cordova-plugin-network-information" spec="~2.0.1" />  
+  <plugin name="cordova-plugin-geolocation" spec="~4.0.1" />
+  <plugin name="tabris-plugin-camera" spec="https://github.com/eclipsesource/tabris-plugin-camera.git" />
+  <plugin name="tabris-plugin-barcode-scanner" spec="https://github.com/eclipsesource/tabris-plugin-barcode-scanner.git" />
 
 </widget>
