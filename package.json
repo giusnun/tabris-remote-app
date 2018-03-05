@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "tabris-js-remote": "3.4.0-beta1-nightly.93",
-    "tabris": "2.4.0-dev.20180222"
+    "tabris": "2.4.0"
   },
   "devDependencies": {
     "npm-run-all": "^4.0.2",
