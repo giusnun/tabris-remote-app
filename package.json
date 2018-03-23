@@ -12,7 +12,7 @@
     "serve": "tabris serve"
   },
   "dependencies": {
-    "tabris-js-remote": "3.4.0-beta1-nightly.93",
+    "tabris-js-remote": "3.4.0-beta1-nightly.102",
     "tabris": "^2.4.1"
   },
   "devDependencies": {

@@ -11,7 +11,6 @@ interface LaunchConfig {
 }
 
 let urlInput: TextInput,
-    legacyCheck: CheckBox,
     debugCheck: CheckBox,
     launchButton: Button;
 
@@ -27,11 +26,6 @@ function createUI() {
         font: '16px'
       }).on({
         accept: launch
-      }),
-      legacyCheck = new CheckBox({
-        text: 'RAP 2.X legacy mode',
-        top: 'prev() 32', left: 32,
-        font: '16px'
       }),
       debugCheck = new CheckBox({
         text: 'Debug mode',
@@ -53,7 +47,6 @@ function restoreState() {
   if (config) {
     urlInput.text = config.url;
     debugCheck.checked = config.debug;
-    legacyCheck.checked = config.version === 2;
   }
 }
 
@@ -73,7 +66,7 @@ function createLaunchConfig(): LaunchConfig {
   return {
     url: urlInput.text,
     debug: debugCheck.checked,
-    version: legacyCheck.checked ? 2 : 3,
+    version: 3,
     id: ''
   };
 }
