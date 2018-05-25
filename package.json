@@ -12,12 +12,12 @@
     "serve": "tabris serve"
   },
   "dependencies": {
-    "tabris-js-remote": "3.4.0-beta1-nightly.102",
-    "tabris": "^2.4.1"
+    "tabris-js-remote": "3.4.0-beta1-nightly.108",
+    "tabris": "^2.5.0"
   },
   "devDependencies": {
     "npm-run-all": "^4.0.2",
     "tslint": "^5.3.2",
-    "typescript": "^2.3.3"
+    "typescript": "^2.6.2"
   }
 }
