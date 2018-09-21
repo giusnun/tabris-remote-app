@@ -1,6 +1,6 @@
 {
-  "name": "tabris-remote-app",
-  "version": "0.2.0",
+  "name": "Vanvitelli Mobile",
+  "version": "3.4.5",
   "main": "dist/app.js",
   "private": true,
   "scripts": {
@@ -12,12 +12,12 @@
     "serve": "tabris serve"
   },
   "dependencies": {
-    "tabris-js-remote": "3.5.0-beta1-nightly.115",
-    "tabris": "2.5.1"
+    "tabris-js-remote": "3.5.0-beta1-nightly.123",
+    "tabris": "2.6.1"
   },
   "devDependencies": {
-    "npm-run-all": "^4.0.2",
-    "tslint": "^5.3.2",
-    "typescript": "^2.6.2"
+    "npm-run-all": "^4.1.3",
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.3"
   }
 }
